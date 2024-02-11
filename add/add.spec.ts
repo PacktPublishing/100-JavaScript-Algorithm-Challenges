@@ -1,10 +1,6 @@
 import {add, add2} from './add'
 
-<<<<<<< HEAD
 describe(add.name, () => {
-=======
-(add.name, () => {
->>>>>>> b359d62 (resolve jest issues)
   it('test 1', () => {
     //act
     const result = add(1,2);
