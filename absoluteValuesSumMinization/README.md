@@ -6,6 +6,10 @@ Given a sorted array of integers a, find an integer x from a such that the value
 is the smallest possible (here abs denotes the absolute value).
 If there are several possible answers, output the smallest one.
 
+**Simplify**
+
+You want the middle number, divide the sorted array in half and then take the index of the middle value. If the value is even, then take the item to the left.
+
 **Example**
 
 For a = [2, 4, 7], the output should be
