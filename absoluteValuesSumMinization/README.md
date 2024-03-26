@@ -11,14 +11,14 @@ If there are several possible answers, output the smallest one.
 For a = [2, 4, 7], the output should be
 absoluteValuesSumMinimization(a) = 4.
 
-For a = [2, 4, 7, 6], the output should be
+For a = [2, 4, 6, 7], the output should be
 absoluteValuesSumMinimization(a) = 4.
 
-For a = [2, 4, 7, 6, 6], the output should be
-absoluteValuesSumMinimization(a) = 7.
+For a = [2, 4, 6, 6, 7], the output should be
+absoluteValuesSumMinimization(a) = 6.
 
-For a = [2, 4, 7, 6, 6, 8], the output should be
-absoluteValuesSumMinimization(a) = 7.
+For a = [2, 4, 6, 6, 7, 8], the output should be
+absoluteValuesSumMinimization(a) = 6.
 
 **Hints**
 -   Math.floor()
